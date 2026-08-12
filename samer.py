@@ -24,7 +24,7 @@ class CyberScanner:
         for port, service in common_ports.items():
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.settimeout(1.0)
-            result = s.connect_ex((s
+            result = s.connect_ex((self.target_ip, port))
 
       
 
