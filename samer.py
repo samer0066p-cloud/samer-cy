@@ -27,3 +27,4 @@ class CyberScanner:
             result = s.connect_ex((s
 
       
+
