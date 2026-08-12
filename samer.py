@@ -25,3 +25,4 @@ class CyberScanner:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.settimeout(1.0)
             result = s.connect_ex((s
+ 
